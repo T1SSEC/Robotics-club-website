@@ -1,0 +1,24 @@
+{
+  "name": "robotics-club-website",
+  "version": "1.0.0",
+  "description": "Website for our robotics club that shows our projects and fun histories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T1SSEC/Robotics-club-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/T1SSEC/Robotics-club-website/issues"
+  },
+  "homepage": "https://github.com/T1SSEC/Robotics-club-website#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
