@@ -1,69 +1,60 @@
 # Robotics Club Website
 
-Website for our robotics club that showcases our projects, events, and community. Built with modern HTML, CSS, and Bootstrap for a responsive and engaging user experience.
+A modern, responsive website for our robotics club showcasing projects, gallery, and club information. Built with HTML5, CSS3, and Bootstrap for an engaging user experience.
+
+## Overview
+
+This website serves as the digital home for our robotics club, featuring a comprehensive project showcase, photo gallery, and contact information. The site is optimized for all devices with a modern, professional design and smooth navigation.
 
 ## Features
 
-- **Modern Navigation**: Fixed-top navbar with smooth hover animations, gradient background, and responsive design
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices using Bootstrap
-- **Dark Theme**: Consistent dark theme throughout the site for a sleek, tech-focused look
-- **Multi-page Structure**: Dedicated pages for home, projects, events, about, and contact
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
+- **Modern Navigation**: Intuitive fixed navbar with smooth animations
+- **Professional Styling**: Consistent dark theme with gradient accents
+- **Multi-page Layout**: Organized content across dedicated pages
+- **Gallery & Projects**: Dedicated sections for showcasing work
+- **Contact Integration**: Easy-to-use contact page
+
+## Pages
+
+- **Home** (`index.html`) - Landing page with club introduction and highlights
+- **Projects** (`projects/index.html`) - Showcase of robotics projects with images and descriptions
+- **Gallery** (`gallery/index.html`) - Photo gallery of events and activities
+- **Contact** (`contact/index.html`) - Contact form and information
 
 ## Project Structure
 
 ```
-robotics club website/
-├── index.html          # Homepage
-├── about.html          # About the club
-├── projects.html       # Project showcase
-├── events.html         # Events and activities
-├── contact.html        # Contact information
+robotics-club-website/
+├── index.html                          # Homepage
+├── contact/
+│   └── index.html                      # Contact page
+├── gallery/
+│   └── index.html                      # Photo gallery
+├── projects/
+│   └── index.html                      # Projects showcase
 ├── css/
-│   └── style.css       # Custom styles including modern navbar
+│   └── style.css                       # Global styles and animations
 ├── assets/
 │   ├── images/
-│   │   ├── logo.png    # Club logo
-│   │   ├── events/     # Event photos
-│   │   ├── projects/   # Project images
-│   │   └── thumbnail/  # Thumbnail images
-│   ├── fonts/          # Custom fonts
-│   └── videos/         # Video content
-├── package.json        # Node.js dependencies (Bootstrap)
-└── README.md           # This file
+│   │   ├── logo.png                    # Club logo
+│   │   ├── gallery/                    # Gallery images
+│   │   ├── projects/                   # Project images
+│   │   └── thumbnail/                  # Thumbnail images
+│   ├── fonts/                          # Custom fonts
+│   └── videos/                         # Video content
+├── package.json                        # Project dependencies
+├── package-lock.json
+└── README.md                           # This file
 ```
 
 ## Technologies Used
 
-- **HTML5**: Semantic markup
-- **CSS3**: Custom styling with animations and responsive design
-- **Bootstrap 5**: Framework for responsive components and utilities
-- **JavaScript**: Bootstrap's JS for interactive elements
+- **HTML5**: Semantic and accessible markup
+- **CSS3**: Custom styling with animations, transitions, and responsive layouts
+- **Bootstrap 5**: Responsive framework and UI components
+- **JavaScript**: Bootstrap utilities for interactive elements
 
-## Getting Started
+## Note
 
-1. Clone the repository
-2. Open `index.html` in your browser to view the site
-3. For development, ensure Bootstrap is installed via npm:
-   ```bash
-   npm install
-   ```
-
-## Navigation
-
-The website features a modern, fixed navigation bar that allows easy movement between pages:
-- **Начало** (Home) - Main landing page
-- **Проекти** (Projects) - Showcase of robotics projects
-- **Евенти** (Events) - Upcoming and past events
-- **За нас** (About) - Information about the club
-- **Контакт** (Contact) - How to get in touch
-
-## Customization
-
-- Modify `css/style.css` to customize the navbar appearance
-- Update page content in the respective HTML files
-- Add new images to `assets/images/` folders
-- Extend functionality by adding JavaScript files in the root or a dedicated folder
-
-## Contributing
-
-Feel free to contribute to the website by adding new projects, updating event information, or improving the design. Make sure to test responsiveness across different devices.
+README file is writed with the help of AI and some parts of the website too, including the icon.
