@@ -57,4 +57,4 @@ robotics-club-website/
 
 ## Note
 
-README file is writed with the help of AI and some parts of the website too, including the icon.
+README file is writed with the help of AI.
