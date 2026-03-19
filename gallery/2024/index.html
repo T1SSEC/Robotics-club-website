@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>Проекти - Клуб Роботика</title>
+    <title>Галерия - Клуб Роботика</title>
 </head>
 <body>
 <!-- Navbar -->
@@ -26,13 +26,10 @@
           <a class="nav-link" href="/">Начало</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/projects/">Проекти</a>
+          <a class="nav-link" href="/projects/">Проекти</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/competitions/">Състезания</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/gallery/">Галерия</a>
+          <a class="nav-link active" aria-current="page" href="/gallery/">Галерия</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/contact/">Контакти</a>
@@ -42,19 +39,38 @@
   </div>
 </nav>
 
-<section class="hero text-white py-5" style="background-image: url('/assets/images/gallery/2026/10.JPG'); background-size: cover; background-position: center; position: relative;">
+<section class="hero text-white py-5" style="background-image: url('/assets/images/gallery/2024/02.JPG'); background-size: cover; background-position: center; position: relative;">
   <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6);"></div>
   <div class="container" style="position: relative; z-index: 1;">
     <div class="row align-items-center">
-        <div class="col-lg-6">
-            <h1 class="display-4 fw-bold">Проекти</h1>
-            <p class="lead">Открийте нашите най-нови и вълнуващи проекти в областта на робототехниката.</p>
-        </div>
+      <div class="col-lg-6">
+        <h1 class="display-6 fw-bold">Снимки от 2024</h1>
       </div>
     </div>
   </div>
 </section>
 
+<section class="gallery py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <a href="/assets/images/gallery/2024/01.JPG" target="_blank">
+          <img src="/assets/images/gallery/2024/01.JPG" alt="Gallery image" class="img-fluid rounded" style="aspect-ratio: 16/9; object-fit: cover; width: 100%; height: auto;">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="/assets/images/gallery/2024/02.JPG" target="_blank">
+          <img src="/assets/images/gallery/2024/02.JPG" alt="Gallery image" class="img-fluid rounded" style="aspect-ratio: 16/9; object-fit: cover; width: 100%; height: auto;">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="/assets/images/gallery/2024/03.JPG" target="_blank">
+          <img src="/assets/images/gallery/2024/03.JPG" alt="Gallery image" class="img-fluid rounded" style="aspect-ratio: 16/9; object-fit: cover; width: 100%; height: auto;">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Bootstrap JS -->
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
